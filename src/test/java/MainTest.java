@@ -28,8 +28,8 @@ public class MainTest {
 
     @Test
     public void userLogin() throws InterruptedException {
-        String username="cv.semihcan@gmail.com";
-        String password="Kyk.17231650";
+        String username="USERNAME";
+        String password="PASSWORD";
         sleep(1000);
         PageObjects.PopupClose(driver).click();
         sleep(1000);
